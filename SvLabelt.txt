@@ -1,0 +1,66 @@
+ dna eth
+= 15°
+= 22°
+= 30°
+= 32°
+= 4°
+= 9°
+=15°
+1
+1 %
+10 %
+10 min
+15 %
+15°
+18°
+2 %
+3 %
+3°
+30°
+4545mgh
+5 %
+7°
+bip1:10
+contr 1:10
+contr1:10
+cs+
+dark
+dark cs+
+DNA
+DNA+eth
+end
+end отм
+eth
+flow
+fus 1:10
+gjngh
+gjnghhgnghmgh
+gjnghhmgh
+go 15°
+go 18°
+go 3°
+go 3°1
+go 32°
+go 35°
+go 4°
+go 7°
+go n-Ca 15°
+go n-Ca 18°
+go n-Ca 30°
+go n-Ca 4°
+hjkhj
+ligth
+ligth cs+
+Low-Ca
+Low-Ca & Cs
+n-Ca 18°
+nfggnf
+no flow
+w-flow
+днк
+днк + этн
+Контроль
+Низкий кальций (-6)
+н-ИПВ
+отмыв
+отмыв + этн

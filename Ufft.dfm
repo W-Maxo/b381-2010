@@ -1,0 +1,112 @@
+object Form2: TForm2
+  Left = 293
+  Top = 171
+  Caption = 'Form2'
+  ClientHeight = 481
+  ClientWidth = 600
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Splitter1: TSplitter
+    Left = 0
+    Top = 249
+    Width = 600
+    Height = 3
+    Cursor = crVSplit
+    Align = alTop
+    ExplicitWidth = 608
+  end
+  object Chart1: TChart
+    Left = 0
+    Top = 0
+    Width = 600
+    Height = 249
+    BackWall.Brush.Color = clWhite
+    BackWall.Brush.Style = bsClear
+    Legend.MaxNumRows = 0
+    Legend.Visible = False
+    Title.Text.Strings = (
+      'TChart')
+    Title.Visible = False
+    BottomAxis.MaximumOffset = 1
+    BottomAxis.MinimumOffset = 1
+    LeftAxis.MaximumOffset = 1
+    LeftAxis.MinimumOffset = 1
+    View3D = False
+    View3DWalls = False
+    Align = alTop
+    TabOrder = 0
+    object Series1: TFastLineSeries
+      Marks.Arrow.Visible = True
+      Marks.Callout.Brush.Color = clBlack
+      Marks.Callout.Arrow.Visible = True
+      Marks.Visible = False
+      LinePen.Color = clRed
+      XValues.Name = 'X'
+      XValues.Order = loAscending
+      YValues.Name = 'Y'
+      YValues.Order = loNone
+    end
+    object Series4: TFastLineSeries
+      Marks.Arrow.Visible = True
+      Marks.Callout.Brush.Color = clBlack
+      Marks.Callout.Arrow.Visible = True
+      Marks.Visible = False
+      LinePen.Color = clGreen
+      XValues.Name = 'X'
+      XValues.Order = loAscending
+      YValues.Name = 'Y'
+      YValues.Order = loNone
+    end
+  end
+  object Chart2: TChart
+    Left = 0
+    Top = 252
+    Width = 600
+    Height = 229
+    BackWall.Brush.Color = clWhite
+    BackWall.Brush.Style = bsClear
+    Legend.MaxNumRows = 0
+    Legend.Visible = False
+    Title.Text.Strings = (
+      'TChart')
+    Title.Visible = False
+    BottomAxis.MaximumOffset = 1
+    BottomAxis.MinimumOffset = 1
+    LeftAxis.MaximumOffset = 1
+    LeftAxis.MinimumOffset = 1
+    View3D = False
+    View3DWalls = False
+    Align = alClient
+    TabOrder = 1
+    object Series3: TFastLineSeries
+      Marks.Arrow.Visible = True
+      Marks.Callout.Brush.Color = clBlack
+      Marks.Callout.Arrow.Visible = True
+      Marks.Visible = False
+      LinePen.Color = clRed
+      XValues.Name = 'X'
+      XValues.Order = loAscending
+      YValues.Name = 'Y'
+      YValues.Order = loNone
+    end
+    object Series2: TFastLineSeries
+      Marks.Arrow.Visible = True
+      Marks.Callout.Brush.Color = clBlack
+      Marks.Callout.Arrow.Visible = True
+      Marks.Visible = False
+      LinePen.Color = clGreen
+      XValues.Name = 'X'
+      XValues.Order = loAscending
+      YValues.Name = 'Y'
+      YValues.Order = loNone
+    end
+  end
+end
